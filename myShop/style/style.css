@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	background: #39C;
+}
+
+
+.main_wrapper {
+	width: 1000px;
+	height: auto;
+	margin: auto;
+
+}
+
+.header_wrapper {
+	width: 1000px;
+	height: 210px;
+	background:#FFF;
+}
+
+
+#navbar {
+	width: 1000px;
+	height: 50px;
+	background: #999;
+	color: #FFF;
+}
+
+#menu {
+	padding:0;
+	line-height: 36px;
+	margin-top:5px;
+	float:left;
+}
+
+#menu li {
+	list-style:none;
+	display:inline;
+}
+
+#menu a {
+	color: #FFF;
+	text-decoration:none;
+	font-size:20px;
+	margin:5px;
+	padding:10px;
+}
+
+#menu a:hover {
+	color: #333;
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+#form {
+	float:right;
+	line-height:50px;
+	padding-right:5px;
+}
+
+.content_wrapper {
+	width: 1000px;
+	height: auto;
+	background: #000;
+}
+
+#right_content {
+	width: 800px;
+
+	background: #FCC;
+	float: right;
+}
+
+#left_sidebar {
+	width:200px;
+
+	background: #000;
+	float: left;
+}
+
+.footer {
+	width: 1000px;
+	height: 100px;
+	background: #999;
+	color: #FFF;
+	clear:both;
+
+}
+
+#sidebar_title {
+	background: #FFF;
+	color:#000;
+	padding:10px;
+	font-size:22px;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#cats {
+	text-align:center;
+	padding:10px;
+}
+#cats li {
+	list-style:none;
+	margin: 8px;
+}
+#cats a {
+	color:#FFF; font-size:20px; text-decoration:none; margin:5px;}
+#cats a:hover {
+	color:#F93;
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+#headline {background:#000; color: #FFF; height:35px; width:780px; padding:10px;}
+
+#headline_content {float:right;}
+
+#products_box {
+	width:780px;
+	padding:10px;
+	margin-left:30px;
+	margin-top: 10px;
+	margin-bottom:10px;
+	text-align:center;
+	}
+
+#single_product{float:left; padding:10px;}
+#single_product img {border:2px solid #333;}
